@@ -54,7 +54,7 @@ exports.handler = function (event, context, callback) {
             obniz.close();
             console.log("water finished");
 
-            var dbx = new Dropbox({accessToken: "9KgmQpZHyj0AAAAAAAALMRfY_qVjRqcNlGLwQew0yIJ1W84EuYgXWO-BjGTXiNHI"});
+            var dbx = new Dropbox({accessToken: "DROPBOX_KEY"});
 
             var bytes = new Buffer(uploadImageData);
             var dateArray = [
