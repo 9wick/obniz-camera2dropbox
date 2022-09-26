@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "dropbox": "^2.5.13",
+    "dropbox": "^10.32.0",
     "obniz": "^0.1.50"
   }
 }
